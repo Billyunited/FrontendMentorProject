@@ -171,14 +171,20 @@ p.copy-text {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   margin: 0 1.5rem;
+   margin: 7rem 1.5rem;
+   position: relative;
    /* margin-bottom: 8rem; */
+}
+.how-we-work::after{
+   content: url(/images/bg-pattern-how-we-work-mobile.svg);
+   top: 0;
+   right: 0;
+   /* border: 1px solid red; */
+   position: absolute;
 }
 
 .how-we-work-container {
-   background: url('/images/bg-pattern-intro-right-mobile.svg') no-repeat;
-   top: 0;
-   right: 0;
+   
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -211,7 +217,8 @@ p.copy-text {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   border-bottom: 1px solid rgb(235, 235, 235);
+   /* border-bottom: 1px solid rgb(235, 235, 235); */
+   background: #fafafa;
 
 }
 
@@ -233,6 +240,7 @@ p.copy-text {
    align-items: center;
    justify-content: center;
    text-align: center;
+   background: #fafafa;
 }
 
 .footer-nav h5 {
