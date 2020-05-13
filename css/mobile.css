@@ -222,6 +222,10 @@ p.copy-text {
 
 }
 
+.footer a{
+   text-decoration: none;
+}
+
 .footer-logo img {
    width: 8rem;
    padding: 1rem 0 2rem;
